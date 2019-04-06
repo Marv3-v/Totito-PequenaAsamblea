@@ -9,6 +9,7 @@ function inicioJuego() {
 function movimientoSiguiente(casilla) {
 if(document.finDelJuego != true) {
   if (casilla.innerHTML == "") {
+    
    casilla.innerText = document.dato;
    cambiarDato();
     } else {
