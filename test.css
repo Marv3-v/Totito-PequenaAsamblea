@@ -4,14 +4,20 @@
     top: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    height: 100%;
 }
 td {  
   border-radius: 20px;
   font-size: 70px;
   width: 130px;
+  height: 100px;
+  text-align: center;
+  line-height: 0px;
+  position: relative;
 }
 
 td svg, td svg rect {
+    position: absolute;
     color:    #05403B;
     width: 100%; 
     fill: transparent;
