@@ -1,0 +1,50 @@
+body {
+  /* background: #0FBFB1; */
+  background-image: url("bg.jpg");
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  color: #0FBFB1;
+}
+
+p {
+  font-size: 19px;
+  color: #0A7F76;
+}
+
+td {
+  border: 5px solid #05403B;
+  border-radius: 20px;
+}
+
+.casilla {
+  font-size: 70px;
+  height: 100px;
+  width: 100px;
+}
+.table {
+
+ text-align: center;
+ color:#0A7F76;
+}
+
+
+
+.div {
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+
+

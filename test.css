@@ -1,0 +1,30 @@
+.container {
+     position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+td {  
+  border-radius: 20px;
+  font-size: 70px;
+  width: 130px;
+}
+
+td svg, td svg rect {
+    color:    #05403B;
+    width: 100%; 
+    fill: transparent;
+    border-radius: 20px;
+}
+td svg rect {
+    stroke:  #05403B;
+    stroke-width: 8;
+    transition: 1.5s;
+    stroke-dashoffset: 900;
+}
+
+td:hover svg rect {
+    stroke-dasharray: 700;
+    stroke-dashoffset: 0;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body onload="inicioJuego()">
+    <div class="title">
+        <h1>To Ti To</h1>
+    </div>
+    <div class="container">
+        <div>
+            <p id="texto"></p>
+        </div>
+        <table class="table">
+            <tr>
+                
+                <td class="casilla"  id="c1">
+                    
+                    <svg>
+                        <rect onClick="movimientoSiguiente(this)"></rect>
+                    </svg>
+                </td>
+                <td class="casilla" onClick="movimientoSiguiente(this)"  id="c2">
+                    <svg>
+                        <rect></rect>
+                    </svg>
+                </td>
+                <td class="casilla" onClick="movimientoSiguiente(this)"  id="c3">
+                    
+                    <svg>
+                        <rect></rect>
+                    </svg>
+                </td>
+
+            </tr>
+            <tr>
+                <td class="casilla" onClick="movimientoSiguiente(this)"  id="c4">
+                    <svg>
+                        <rect></rect>
+                    </svg>
+                </td>
+                <td class="casilla" onClick="movimientoSiguiente(this)" id="c5">
+                    <svg>
+                        <rect></rect>
+                    </svg>
+                </td>
+                <td class="casilla" onClick="movimientoSiguiente(this)" id="c6">
+                    <svg>
+                        <rect></rect>
+                    </svg>
+                </td>
+
+            </tr>
+            <tr>
+                <td class="casilla" onClick="movimientoSiguiente(this)" id="c7">
+                    <svg>
+                        <rect></rect>
+                    </svg>
+                </td class="casilla" onClick="movimientoSiguiente(this)"  id="c8">
+                <td>
+                    <svg>
+                        <rect></rect>
+                    </svg>
+                </td class="casilla" onClick="movimientoSiguiente(this)"  id="c9">
+                <td>
+                    <svg>
+                        <rect></rect>
+                    </svg>
+                </td>
+            </tr>
+        </table>
+        <p onClick="empezarOtraVez()">Comenzar otra vez</p>
+    </div>
+    <script src="logica.js"></script>
+</body>
+
+</html>
