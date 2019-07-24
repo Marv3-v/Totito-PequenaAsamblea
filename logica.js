@@ -1,5 +1,5 @@
 function inicioJuego() {
-  document.dato = "x";
+  document.dato = "o";
   document.finDelJuego = false;
   cambiarMensaje("Turno de: " + document.dato);
 

@@ -6,35 +6,6 @@
     -webkit-transform: translate(-50%, -50%);
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-td {  
-  border-radius: 20px;
-  font-size: 80px;
-  width: 130px;
-  height: 100px;
-  text-align: center;
-  line-height: 0px;
-  position: relative;
-}
-
-td svg, td svg rect {
-    position: absolute;
-    color:    #05403B;
-    width: 100%; 
-    fill: transparent;
-    border-radius: 20px;
-}
-td svg rect {
-    stroke:  #05403B;
-    stroke-width: 8;
-    transition: 1.5s;
-    stroke-dashoffset: 900;
-}
-
-td:hover svg rect {
-    stroke-dasharray: 700;
-    stroke-dashoffset: 0;
 }
 
 .two {
@@ -49,29 +20,40 @@ td:hover svg rect {
     margin-top: -167%;
     
 }
+
 #well span {
     position: absolute;
-    margin-left: 9%;
-    margin-top: 4%;
-    font-size: 90px;
+    margin-left: 10%;
+    margin-top: -20%;
+    font-size: 140px;
     width: 40%;
+    
+}
+
+.noVisto {
+    color: transparent;
+}
+
+.visto {
+    display: flex;
 }
 
 #well svg {
     margin: -23%;
 }
-.path {
-    
-    stroke-dasharray: 1300;
-    stroke-dashoffset: 1300;
-    animation: dash 1.5s linear forwards;
-}
 
 .path {
     stroke-dasharray: 1300;
     stroke-dashoffset: 1300;
     animation: dash 1.5s linear forwards;
 }
+
+.ani {
+    stroke-dasharray: 1300;
+    stroke-dashoffset: 1300;
+    animation: dash 1.5s linear forwards;    
+}
+
 @keyframes dash {
     to {
         stroke-dashoffset: 0;
